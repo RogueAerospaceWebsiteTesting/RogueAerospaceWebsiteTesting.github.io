@@ -1,0 +1,14 @@
+body{
+    background-color: #000000;
+    height: 100%;
+    width: auto;
+}
+
+.wholePage{
+    /* display: flex; */
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #301934;
+    height: 100vw;
+    
+}
