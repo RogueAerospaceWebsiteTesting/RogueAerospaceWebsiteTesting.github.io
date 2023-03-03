@@ -2,15 +2,18 @@ body{
     background-color: #000000;
     height: 100%;
     width: auto;
+    font-family: 'Outfit';
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 .wholePage{
     display: flex;
     flex-direction: column;
-    margin-left: 75px;
-    margin-right: 75px;
-    background-color: #301934;
-    height: 100vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #0f142e;
+    height: 10000px;
     
 }
 .first_slide_background{
@@ -30,7 +33,7 @@ body{
 }
  
 .logo img{
-    width: 6%;
+    width: 10%;
 }
 
 .first_slide_big_logo{
@@ -61,4 +64,115 @@ body{
     position:absolute;
     flex: 1;
     width:fit-content;
+    width: -moz-fit-content;
+}
+.video{
+    height: 720px;
+
+}
+
+.video video{
+    display: flex;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    margin-top: 90px;
+    
+}
+
+.jefferson_quote{
+    display: flex;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    margin-top:125px;
+}
+
+.why_rogue_formatting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+
+.why_rogue_formatting img{
+    margin-left: 20px;
+    margin-top: 75px;
+    width: 50%;
+    max-height:800px; 
+    min-height: 200px;
+}
+
+
+
+
+.why_rogue_words_formatting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+}
+.why_rogue_words_formatting h1{
+    margin-right:50px;
+    text-align: right;
+    /* font-size: 2.2vw; */
+    color: white;
+    margin-top: 75px;
+
+}
+
+.why_rogue_words_formatting h2{
+    color: white;
+    /* font-size: 25px; */
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+
+.what_do_we_do{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.what_do_we_do img{
+    margin-right: 20px;
+    margin-top: 75px;
+    width: 50%;
+    max-height:800px; 
+    min-height: 200px;
+}
+
+.what_do_we_do_words{
+    display: flex;
+    flex-direction: column;
+    /* font-size: 100%; */
+}
+.what_do_we_do_words h1{
+    margin-left:50px;
+    text-align: left;
+    font-size: 5vw;
+    color: white;
+    margin-top: 75px;
+
+}
+
+.what_do_we_do_words h2{
+    color: white;
+    font-size: 2vw;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.executive{
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;   
+    object-fit: cover;
+    align-items: center;
 }
