@@ -66,12 +66,12 @@ body{
     width:fit-content;
     width: -moz-fit-content;
 }
-.video{
+#video{
     height: 720px;
 
 }
 
-.video video{
+#video video{
     display: flex;
     object-fit: cover;
     width:100%;
